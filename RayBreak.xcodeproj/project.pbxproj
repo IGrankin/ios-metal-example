@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D480994208BA6AC0018E3B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D480993208BA6AC0018E3B7 /* Model.swift */; };
+		6D48099F208BAEA30018E3B7 /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D480997208BAEA30018E3B7 /* mushroom.png */; };
+		6D4809A0208BAEA30018E3B7 /* mushroom.obj in Resources */ = {isa = PBXBuildFile; fileRef = 6D480998208BAEA30018E3B7 /* mushroom.obj */; };
+		6D4809A1208BAEA40018E3B7 /* humanFigure.obj in Resources */ = {isa = PBXBuildFile; fileRef = 6D48099A208BAEA30018E3B7 /* humanFigure.obj */; };
+		6D4809A2208BAEA40018E3B7 /* texturedCube.blend in Resources */ = {isa = PBXBuildFile; fileRef = 6D48099C208BAEA30018E3B7 /* texturedCube.blend */; };
+		6D4809A3208BAEA40018E3B7 /* texturedCube.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D48099D208BAEA30018E3B7 /* texturedCube.png */; };
+		6D4809A4208BAEA40018E3B7 /* texturedCube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 6D48099E208BAEA30018E3B7 /* texturedCube.obj */; };
+		6D4809A6208CB27B0018E3B7 /* LightningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4809A5208CB27B0018E3B7 /* LightningScene.swift */; };
 		6D701EDF2067F2D600C40E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EDE2067F2D600C40E6D /* AppDelegate.swift */; };
 		6D701EE12067F2D600C40E6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EE02067F2D600C40E6D /* ViewController.swift */; };
 		6D701EE42067F2D600C40E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D701EE22067F2D600C40E6D /* Main.storyboard */; };
 		6D701EE62067F2D600C40E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D701EE52067F2D600C40E6D /* Assets.xcassets */; };
 		6D701EE92067F2D600C40E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D701EE72067F2D600C40E6D /* LaunchScreen.storyboard */; };
+		6D701EF120714D4100C40E6D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EF020714D4100C40E6D /* Renderer.swift */; };
+		6D701EF32071513200C40E6D /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EF22071513200C40E6D /* Shader.metal */; };
+		6D701EF52072AB3E00C40E6D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EF42072AB3E00C40E6D /* Node.swift */; };
+		6D701EF72072AC3200C40E6D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EF62072AC3200C40E6D /* Plane.swift */; };
+		6D701EF92072ADD900C40E6D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EF82072ADD900C40E6D /* Scene.swift */; };
+		6D701EFB2072AE7300C40E6D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EFA2072AE7300C40E6D /* GameScene.swift */; };
+		6D701EFF2072B56D00C40E6D /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701EFE2072B56D00C40E6D /* Types.swift */; };
+		6D701F012072BE8200C40E6D /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F002072BE8200C40E6D /* Renderable.swift */; };
+		6D701F062082652600C40E6D /* picture-frame-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D701F032082652600C40E6D /* picture-frame-mask.png */; };
+		6D701F072082652600C40E6D /* picture-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D701F042082652600C40E6D /* picture-frame.png */; };
+		6D701F082082652600C40E6D /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D701F052082652600C40E6D /* picture.png */; };
+		6D701F0A2082657400C40E6D /* Texturable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F092082657400C40E6D /* Texturable.swift */; };
+		6D701F0C20850D9000C40E6D /* MatrixMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F0B20850D8F00C40E6D /* MatrixMath.swift */; };
+		6D701F0E2087AC3B00C40E6D /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F0D2087AC3B00C40E6D /* Primitive.swift */; };
+		6D701F102087B01900C40E6D /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F0F2087B01900C40E6D /* Cube.swift */; };
+		6D701F122087B8BE00C40E6D /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D701F112087B8BE00C40E6D /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D480993208BA6AC0018E3B7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6D480997208BAEA30018E3B7 /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushroom.png; sourceTree = "<group>"; };
+		6D480998208BAEA30018E3B7 /* mushroom.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mushroom.obj; sourceTree = "<group>"; };
+		6D48099A208BAEA30018E3B7 /* humanFigure.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = humanFigure.obj; sourceTree = "<group>"; };
+		6D48099C208BAEA30018E3B7 /* texturedCube.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = texturedCube.blend; sourceTree = "<group>"; };
+		6D48099D208BAEA30018E3B7 /* texturedCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texturedCube.png; sourceTree = "<group>"; };
+		6D48099E208BAEA30018E3B7 /* texturedCube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texturedCube.obj; sourceTree = "<group>"; };
+		6D4809A5208CB27B0018E3B7 /* LightningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningScene.swift; sourceTree = "<group>"; };
 		6D701EDB2067F2D600C40E6D /* RayBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D701EDE2067F2D600C40E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D701EE02067F2D600C40E6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +54,22 @@
 		6D701EE52067F2D600C40E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D701EE82067F2D600C40E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D701EEA2067F2D600C40E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D701EF020714D4100C40E6D /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		6D701EF22071513200C40E6D /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		6D701EF42072AB3E00C40E6D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		6D701EF62072AC3200C40E6D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		6D701EF82072ADD900C40E6D /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		6D701EFA2072AE7300C40E6D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6D701EFE2072B56D00C40E6D /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		6D701F002072BE8200C40E6D /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		6D701F032082652600C40E6D /* picture-frame-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture-frame-mask.png"; sourceTree = "<group>"; };
+		6D701F042082652600C40E6D /* picture-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture-frame.png"; sourceTree = "<group>"; };
+		6D701F052082652600C40E6D /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		6D701F092082657400C40E6D /* Texturable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texturable.swift; sourceTree = "<group>"; };
+		6D701F0B20850D8F00C40E6D /* MatrixMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixMath.swift; sourceTree = "<group>"; };
+		6D701F0D2087AC3B00C40E6D /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		6D701F0F2087B01900C40E6D /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		6D701F112087B8BE00C40E6D /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +83,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D480995208BAEA30018E3B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D480996208BAEA30018E3B7 /* mushroom */,
+				6D480999208BAEA30018E3B7 /* humanFigure */,
+				6D48099B208BAEA30018E3B7 /* texturedCube */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D480996208BAEA30018E3B7 /* mushroom */ = {
+			isa = PBXGroup;
+			children = (
+				6D480997208BAEA30018E3B7 /* mushroom.png */,
+				6D480998208BAEA30018E3B7 /* mushroom.obj */,
+			);
+			path = mushroom;
+			sourceTree = "<group>";
+		};
+		6D480999208BAEA30018E3B7 /* humanFigure */ = {
+			isa = PBXGroup;
+			children = (
+				6D48099A208BAEA30018E3B7 /* humanFigure.obj */,
+			);
+			path = humanFigure;
+			sourceTree = "<group>";
+		};
+		6D48099B208BAEA30018E3B7 /* texturedCube */ = {
+			isa = PBXGroup;
+			children = (
+				6D48099C208BAEA30018E3B7 /* texturedCube.blend */,
+				6D48099D208BAEA30018E3B7 /* texturedCube.png */,
+				6D48099E208BAEA30018E3B7 /* texturedCube.obj */,
+			);
+			path = texturedCube;
+			sourceTree = "<group>";
+		};
 		6D701ED22067F2D500C40E6D = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +145,51 @@
 				6D701EE52067F2D600C40E6D /* Assets.xcassets */,
 				6D701EE72067F2D600C40E6D /* LaunchScreen.storyboard */,
 				6D701EEA2067F2D600C40E6D /* Info.plist */,
+				6D701F0B20850D8F00C40E6D /* MatrixMath.swift */,
+				6D701EF020714D4100C40E6D /* Renderer.swift */,
+				6D701EF22071513200C40E6D /* Shader.metal */,
+				6D701EFD2072AF3900C40E6D /* Nodes */,
+				6D701EFC2072AF2B00C40E6D /* Scenes */,
+				6D701EFE2072B56D00C40E6D /* Types.swift */,
+				6D480995208BAEA30018E3B7 /* Models */,
+				6D701F022082652600C40E6D /* Images */,
 			);
 			path = RayBreak;
+			sourceTree = "<group>";
+		};
+		6D701EFC2072AF2B00C40E6D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6D701EF82072ADD900C40E6D /* Scene.swift */,
+				6D701EFA2072AE7300C40E6D /* GameScene.swift */,
+				6D4809A5208CB27B0018E3B7 /* LightningScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6D701EFD2072AF3900C40E6D /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				6D701F0F2087B01900C40E6D /* Cube.swift */,
+				6D701F002072BE8200C40E6D /* Renderable.swift */,
+				6D701F092082657400C40E6D /* Texturable.swift */,
+				6D701EF42072AB3E00C40E6D /* Node.swift */,
+				6D701EF62072AC3200C40E6D /* Plane.swift */,
+				6D701F0D2087AC3B00C40E6D /* Primitive.swift */,
+				6D701F112087B8BE00C40E6D /* Camera.swift */,
+				6D480993208BA6AC0018E3B7 /* Model.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		6D701F022082652600C40E6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6D701F032082652600C40E6D /* picture-frame-mask.png */,
+				6D701F042082652600C40E6D /* picture-frame.png */,
+				6D701F052082652600C40E6D /* picture.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +252,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D701EE92067F2D600C40E6D /* LaunchScreen.storyboard in Resources */,
+				6D701F072082652600C40E6D /* picture-frame.png in Resources */,
+				6D48099F208BAEA30018E3B7 /* mushroom.png in Resources */,
+				6D701F082082652600C40E6D /* picture.png in Resources */,
 				6D701EE62067F2D600C40E6D /* Assets.xcassets in Resources */,
+				6D4809A1208BAEA40018E3B7 /* humanFigure.obj in Resources */,
+				6D701F062082652600C40E6D /* picture-frame-mask.png in Resources */,
+				6D4809A3208BAEA40018E3B7 /* texturedCube.png in Resources */,
+				6D4809A2208BAEA40018E3B7 /* texturedCube.blend in Resources */,
+				6D4809A4208BAEA40018E3B7 /* texturedCube.obj in Resources */,
 				6D701EE42067F2D600C40E6D /* Main.storyboard in Resources */,
+				6D4809A0208BAEA30018E3B7 /* mushroom.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +273,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D701EF32071513200C40E6D /* Shader.metal in Sources */,
+				6D4809A6208CB27B0018E3B7 /* LightningScene.swift in Sources */,
+				6D701EF52072AB3E00C40E6D /* Node.swift in Sources */,
+				6D701EFB2072AE7300C40E6D /* GameScene.swift in Sources */,
+				6D701F012072BE8200C40E6D /* Renderable.swift in Sources */,
 				6D701EE12067F2D600C40E6D /* ViewController.swift in Sources */,
+				6D701EF120714D4100C40E6D /* Renderer.swift in Sources */,
+				6D701F0C20850D9000C40E6D /* MatrixMath.swift in Sources */,
+				6D480994208BA6AC0018E3B7 /* Model.swift in Sources */,
+				6D701EF92072ADD900C40E6D /* Scene.swift in Sources */,
+				6D701EFF2072B56D00C40E6D /* Types.swift in Sources */,
+				6D701F0E2087AC3B00C40E6D /* Primitive.swift in Sources */,
+				6D701EF72072AC3200C40E6D /* Plane.swift in Sources */,
+				6D701F122087B8BE00C40E6D /* Camera.swift in Sources */,
+				6D701F0A2082657400C40E6D /* Texturable.swift in Sources */,
+				6D701F102087B01900C40E6D /* Cube.swift in Sources */,
 				6D701EDF2067F2D600C40E6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igorgrankin.RayBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igorgrankin.RayBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
